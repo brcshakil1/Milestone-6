@@ -4,5 +4,8 @@ const instructor = [
     {name: 'Shobuj', age: 30, position: 'Senior'}
 ]
 
-const seniorInst = instructor.filter(person => person.position.includes('Senior'));
-console.log(seniorInst)
+const seniorInst = instructor.filter(person => {
+    if(person.position.includes('Senior')) {
+        console.log(person.name)
+    }
+});
