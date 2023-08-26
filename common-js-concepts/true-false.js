@@ -27,3 +27,8 @@ if(!x) {
 } else {
     console.log('true')
 }
+if(!!x) {
+    console.log('false')
+} else {
+    console.log('true')
+}
