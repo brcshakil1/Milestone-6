@@ -1,6 +1,7 @@
 /**
  * There two main type of scope in javascript
  * 1. Global scope   2. Local scope
+ * Block scope and function scope
  */
 
 const number = 45; // global scope. you can access it from anywhere from the 
