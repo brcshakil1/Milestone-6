@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Local Storage</title>
+
+    <style>
+      * {
+        margin: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Local Storage</h1>
+    </header>
+    <main>
+      <section>
+        <h2>Local storage can contain only string</h2>
+        <p>Local storage contain string as a key and value.</p>
+        <div>
+          <input type="text" placeholder="Enter Key" id="key-field" /> <br />
+          <input type="text" placeholder="Enter value" id="value-field" />
+          <br />
+          <button onclick="handleSetItem()">Set Item</button> <br />
+        </div>
+        <div class="item-container">
+          <input type="text" placeholder="Enter Key" id="get-field" /> <br />
+          <button onclick="handleGetItem()">Get Item</button>
+          <p id="item-container"></p>
+        </div>
+      </section>
+    </main>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
